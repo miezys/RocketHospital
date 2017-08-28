@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane nodeOrientation="LEFT_TO_RIGHT" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.nurse.NursePatientVitalsController">
+   <children>
+      <VBox prefHeight="470.0" prefWidth="534.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ToolBar prefHeight="27.0" prefWidth="534.0" />
+            <TableView fx:id="vitalsTable" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="429.0" prefWidth="534.0" VBox.vgrow="ALWAYS">
+              <columns>
+                <TableColumn fx:id="patientID" prefWidth="41.0" text="Patient ID" />
+                <TableColumn fx:id="room" prefWidth="95.0" text="Room ID" />
+                  <TableColumn fx:id="rateOfBreathing" prefWidth="93.0" text="Rate of breath" />
+                  <TableColumn fx:id="pulse" prefWidth="86.0" text="Pulse" />
+                  <TableColumn fx:id="bodyTemperature" prefWidth="128.0" text="Body temperature" />
+                  <TableColumn fx:id="bloodPressure" prefWidth="128.0" text="Blood pressure" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

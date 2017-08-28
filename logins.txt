@@ -1,0 +1,33 @@
+Doctors:
+Annalise : Gonzales
+Rian : Potter
+Eesa : Huff
+Oskar : Li
+Henry : Reynolds
+Kasey : Silva
+Caroline : Webster
+Rylan : Guerrero
+Mohammad : White
+Keavy : Sandoval
+Coral : Nolan
+Layla : Burnett
+Anne : Holder
+Joe : Prince
+
+Nurses:
+Cheyenne : Velazquez
+Zak : Wright
+Greig : Sexton
+Paige : Parker
+Oliwier : Myers
+Skye : Valenzuela
+Jane : Blankenship
+Tulisa : Jefferson
+Carlo : Espinoza
+Kerry : Summers
+Cormac : Abbott
+Zahid : Fox
+Fallon : Howe
+Beverly : Pruitt
+Alanah : Booth
+Kody : Brown

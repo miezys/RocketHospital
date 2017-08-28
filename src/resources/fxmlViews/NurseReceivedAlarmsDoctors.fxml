@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.nurse.NurseReceivedAlarmsDoctorsController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ToolBar prefHeight="40.0" prefWidth="200.0">
+               <items>
+                  <HBox alignment="CENTER_LEFT">
+                     <children>
+                        <Label fx:id="alertCounter" style="-fx-text-fill: green;" />
+                     </children>
+                  </HBox>
+               </items></ToolBar>
+            <TableView fx:id="alertTable" VBox.vgrow="ALWAYS">
+              <columns>
+                  <TableColumn fx:id="alertID" prefWidth="103.0" text="Alert ID " />
+                <TableColumn fx:id="doctorID" prefWidth="103.0" text="Doctor ID" />
+                  <TableColumn fx:id="doctorFirstName" prefWidth="163.0" text="First name" />
+                  <TableColumn fx:id="doctorLastName" prefWidth="163.0" text="Last name" />
+                  <TableColumn fx:id="alertLifetime" prefWidth="163.0" text="Alert Lifetime" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
